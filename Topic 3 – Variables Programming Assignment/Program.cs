@@ -1,4 +1,8 @@
-﻿namespace Topic_3___Variables_Programming_Assignment
+﻿using System.Runtime.Intrinsics.X86;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Topic_3___Variables_Programming_Assignment
 {
     internal class Program
     {
@@ -25,6 +29,12 @@
             Console.WriteLine("My name is " + name + " and I'll graduate in " + graduationyear + ".");
             Console.WriteLine("");
             //Part 2 done
+
+            Console.WriteLine("Part 3:");
+            Console.WriteLine("r = C over 2π");
+            Console.WriteLine("");
+            //Part 3 done??
+
         }
     }
 }
